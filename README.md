@@ -1,82 +1,77 @@
-# Hugo Profile | [Wiki Page](https://github.com/gurusabarish/hugo-profile/wiki)
+# Personal Portfolio 🔥
+> https://rajaprerak.github.io/
 
-[![Twitter](https://img.shields.io/twitter/url?label=Tweet&style=social&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile) [![GitHub forks](https://img.shields.io/github/forks/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/network) [![GitHub stars](https://img.shields.io/github/stars/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/stargazers)
+:star: Star me on GitHub — it helps!
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5c1dcb34-cada-4c80-82b7-cfdbdbd7c774/deploy-status)](https://app.netlify.com/sites/hugo-profile/deploys)
-![Latest Release](https://img.shields.io/github/v/release/gurusabarish/hugo-profile?include_prereleases)
-![Last Commit](https://img.shields.io/github/last-commit/gurusabarish/hugo-profile)
-![Open Issues](https://img.shields.io/github/issues/gurusabarish/hugo-profile?color=important)
-![Open Pull Requests](https://img.shields.io/github/issues-pr/gurusabarish/hugo-profile?color=yellowgreen)
-![License](https://img.shields.io/github/license/gurusabarish/hugo-profile)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/rajaprerak.github.io/commits/master)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://rajaprerak.github.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/rajaprerak/)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-A high performance and mobile first hugo template for personal portfolio and blog
-
-- ### Example Site: [https://hugo-profile.netlify.app](https://hugo-profile.netlify.app)
-
-# Features
-- Fully Responsive
-- Minimalist Design
-- SEO Friendly.
-- Light/Dark/auto
-- Taxonomies
-- [Color customization](https://github.com/gurusabarish/hugo-profile/wiki/Color-Customization)
-- Analytics Support 
-  - [Google Analytics](https://gohugo.io/templates/internal/#google-analytics)
-- Comment Support
-  - [Disqus](https://gohugo.io/content-management/comments/)
-- Integration with [FormSpree](https://formspree.io/) for submitting "Contact me" form
-
-Technology used: Bootstrap, fontawesome 
-
-# Requirements
-- Hugo Version 0.87.0 or higher
+### Website Preview
+#### Home Page
+<img src="website_images/HomePage.gif" width="900">
 
 
-# How to use this template
+#### About Page
+<img src="website_images/AboutPage.png" width="900">
 
-- [Hugo theme](#Hugo-theme)
-- [Direct deployment using netlify](#Direct-deployment-using-netlify)
 
-[For more details](https://github.com/gurusabarish/hugo-profile/wiki)
-## Hugo theme
+#### Projects Page
+<img src="website_images/ProjectPage.png" width="900">
+  
 
-- Install Hugo and create a site using `hugo new site my-site --format="yaml"`
-- Clone this repo inside your themes folder
-```
-cd themes
-git clone https://github.com/gurusabarish/hugo-profile.git
-```
-- Create config.yaml (you can use `config.toml` too) inside root folder 
-- Setup the configurations in `config.yaml`. [reference](https://github.com/gurusabarish/hugo-profile/blob/master/exampleSite/config.yaml)
-- You should have the mentioned (_inside the config file_) images in static folder to use them.
 
-For more details: [Hugo's official docs](https://gohugo.io/getting-started/quick-start/), [content management](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
+:star: Star me on GitHub — it helps!
 
-## Direct deployment using netlify
+## Features 📋
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Typing animation using `Typed.js`\
+⚡️ Easy to modify
 
-- Fork this repo or create new repo using `use this template` button and connect repo to netlify.
-- whenever you customize the files exampleSite folder, netlify will automatically deploy your changes.
+## Installation & Deployment 📦
+- Clone the repository and modify the content of <b>index.html</b> 
+- Add or remove images from `assets/img/` directory as per your requirement.
+- Update the info of `projects` folder according to your need
+- Use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create your own website.
+- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io` and push the generated code to the `master` branch.
 
-For more details: [host on netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/), [content management](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
+## Sections 📚
+✔️ About\
+✔️ Interests\
+✔️ Education\
+✔️ Online Certification\
+✔️ Experience\
+✔️ Projects \
+✔️ Skills \
+✔️ Resume\
+✔️ Contact Info
 
-# Deployment
 
-Run `hugo`. It will generate a folder called public. You can use the files inside public folder for deployment. You should delete the public folder for each time when you are using `hugo` command.
 
-# Issues
+## Tools Used 🛠️
+* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS).
 
-If you have a question, please [open an issue](https://github.com/gurusabarish/hugo-profile/issues) for help and to help those who come after you. The more information you can provide, the better!
+## Contributing 💡
+#### Step 1
 
-# Contributing
+- **Option 1**
+    - 🍴 Fork this repo!
 
-Contributions, issues, and feature requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+- **Option 2**
+    - 👯 Clone this repo to your local machine.
 
-# License
 
-Licensed under [MIT](LICENSE)
+#### Step 2
 
-# 🤝 Support
+- **Build your code** 🔨🔨🔨
 
-Give a ⭐️ or buy me a ~`coffee`~ tea if you like this project!
+#### Step 3
 
-<a href="https://www.buymeacoffee.com/gurusabarish" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="145" alt="Buy Me A Coffee"></a>
+- 🔃 Create a new pull request.
+
+## License
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
