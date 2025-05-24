@@ -18,13 +18,14 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: #f3e8ff; /* ungu pastel */
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
 }
+
 
 @media (min-width: 1024px) {
   body::before {
@@ -276,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #f3e8ff; /* dari #09203a */
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -482,8 +483,8 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #09203a;
-  transition: ease-in-out 0.3s;
+  background: #f3e8ff; /* dari #09203a */
+  transition: all 0.3s ease-in-out;
 }
 
 
