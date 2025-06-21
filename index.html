@@ -2,711 +2,225 @@
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-169007209-3');
-  </script>
-
-
-
-  <!-- =======================================================
-  * Template Name: Personal - v2.1.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>My portfolio website</title>
+    <!-- Adding favicon for older and modern browsers,
+        It is best to add favicon to the main folder, 
+        I used an only ico converter for best result,
+        Do not forget to clear you cache to see the changes -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
-
-    <div class="container">
-
-      <h1><a href="index.html">Heppy Putri Agustin</a></h1>
-      <h2 style="color:#fff">I'm <span class="typing" style="color:#e0c8f6"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <li><a href="#experience"> <span>Experience</span></a></li>
-<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+    </nav>
 
-      <div class="social-links">
-          <a href="https://www.linkedin.com/in/rajaprerak" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.github.com/rajaprerak" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:rajaprerak@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
-      </div>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/profile.jpeg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p>Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure
-            to the underlying concepts and applying them vividly to various projects, my love for these domains came into being.
-            I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 05 Agustus 2004 </li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 081232524006</li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Surabaya, Jawa Timur</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> heppyputriagustin@gmail.com</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End About Me -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-global-line" style="color: #ffbb2c;"></i>
-            <h3>Software Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #5578ff;"></i>
-            <h3>Machine Learning</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-camera-3-line" style="color: #e80368;"></i>
-            <h3>Computer Vision</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-english-input" style="color: #1c7d32;"></i>
-            <h3>Natural Language Processing</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-            <h3>Software Engineering</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-            <h3>Visualization</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-            <h3>Algorithms</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-image-line" style="color: #ffc107;"></i>
-            <h3>Image Processing</h3>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End Interests -->
-  </section><!-- End About Section -->
+    <!-- introduction -->
+    <header class="grid-system-2 w-900 padding">
+        <section class="align-center">
+            <h1 class="medium-spacing">Hello, I am</h1>
+            <h1 class="large">Your name</h1>
+            <p class="justify">That large class above is only suitable for short names/nicknames. If you want to display
+                your full name there, consider using the "medium-spacing" and "colorful-letter" classes instead, to
+                maintain responsiveness.</p>
+        </section>
+        <section class="center align-center">
+            <img class="header-img max-width max-height" src="assets/profile-pic.png" alt="profile-picture">
+        </section>
+    </header>
 
 
+    <!-- quote -->
+    <article class="baby-pink">
+        <p class="quote uppercase">Write something touchy, funny, or deep here.</p>
+        <p>And unfold it here a little.</p>
+    </article>
 
-  <!-- ======= Education Section ======= -->
-  <section id="education" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
+    <!-- about me -->
+    <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/about-me.png" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="bold">About me</p>
+            <p>Here you may write something captivating and exciting about yourself, so that everyone wants to use that
+                button below.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor officia nulla in culpa
+                necessitatibus maiores natus quae adipisci magnam. Voluptas voluptatibus voluptatem est fugiat,
+                provident incidunt perferendis fuga soluta?.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati labore pariatur quisquam veniam,
+                assumenda consectetur asperiores accusamus fugit. </p>
+            <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p>
+        </section>
+    </section>
 
-
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/education/ASU.jpg" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>MS in Computer Science</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">Janurary 2021 - Present</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <li>Distributed Database Systems</li>
-                <li>Cloud Computing</li>
-                <li>Foundation Of Algorithms</li>
-              </ul>
-            </div>
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/education/au.png" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#12d640">Ahmedabad University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>B.Tech. in Information and Communication Technology</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">July 2014 - May 2018</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <!-- <li>Data Structures &amp; Algorithms</li> -->
-                <li>Database Management Systems</li>
-                <!-- <li>Operating Systems</li> -->
-                <li>Algorithms &amp; Optimization for Big Data</li>
-                <li>Machine Learning</li>
-                <!-- <li>Computer Vision</li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    <div class="portfolio">
-    <div class="container">
-      <div class="section-title">
-        <h2>Online Certification</h2>
-      </div>
-
-      <div class="row portfolio-container" style="position: relative; height: 437.75px;">
-
-         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Machine Learning</h4>
-              <div class="portfolio-links">
-                <a href="https://www.coursera.org/account/accomplishments/certificate/2BTJ636Q2E93?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-           </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Algorithms-Design and Analysis</h4>
-              <div class="portfolio-links">
-                <a href="https://www.coursera.org/account/accomplishments/certificate/6THRQXYE9EHZ?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/ucsd.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Algorithmic Toolbox</h4>
-              <div class="portfolio-links">
-                <a href="https://coursera.org/share/98bbfb990484fac370d5e5ed14334ea4" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 0px; top: 218.875px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Deep Learning with Tensorflow</h4>
-              <div class="portfolio-links">
-                <a href="https://drive.google.com/file/d/1FSwPt19EzY_tpvqkE6igtLf3gccKcssC/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 370px; top: 218.875px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Machine Learning with Python</h4>
-              <div class="portfolio-links">
-                <a href="https://drive.google.com/file/d/1gimySw_NPzCJ54dqZ2j2wYyz-JDOg-S0/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 740px; top: 218.875px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/dai.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Neural Networks and Deep Learning</h4>
-              <div class="portfolio-links">
-                <a href="https://www.coursera.org/account/accomplishments/certificate/ELXZ6FE2BU7X?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
-
-  </section>
-  <!-- End Education Section -->
-
-
-
-  <!-- Start Experience Section -->
-
-  <section id="experience" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Experience</h2>
-      </div>
-      <div class="row">
-          <div class="col-lg-12" data-aos="fade-up">
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="https://www.asu.edu/" style="color:#12d640">Arizona State University</a><br> </h4>
-                <h5 style="text-align:left;">January 2021 - Present</h5>
-                <p style="text-align:left;color:#fff"><em>Software Engineer </em></p>
-                <ul style="text-align:left;">
-                  <li>Managed large‑scale deployment of JupyterHub with Nbgrader and webwork software, facilitating approx 5500 students.</li>
-                  <li>Configured, troubleshot, and administered server‑side web applications for the statistics department.</li>
-                  <li>Handled Linux server administration and Apache configuration; automated tasks like user account creation, managing student database, and system maintenance using Shell and automation scripts, reducing manual work by 200%.</li>
+    <!-- skills -->
+    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
+    <section>
+        <h3 class="main-title center padding">Skills</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column">
+            <p class="padding-bottom">Technical skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>html</p>
+                        <span class="progress-bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <p>css</p>
+                        <span class="progress-bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <p>javascript</p>
+                        <span class="progress-bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <p>php, mysql</p>
+                        <span class="progress-bar"><span class="php"></span></span>
+                    </li>
                 </ul>
-              </div>
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="https://www.augmenify.com/" style="color:#12d640">Augmenify Infotech Pvt. Ltd.</a><br> </h4>
-                <h5 style="text-align:left;">August 2020 - November 2020</h5>
-                <p style="text-align:left;color:#fff"><em>Backend Developer</em></p>
-                <ul style="text-align:left;">
-                  <li>Documented and coded server‑less web application for the hotel industry and designed REST API using Flask‑based JWT authentication.</li>
-                  <li>Redeveloped an existing system to support customer account management, scheduling, and time tracking; enabled dynamic API calls with the help of Amazon API Gateway, AWS Lambda, and DynamoDB.</li>
+            </section>
+        </section>
+        <section class="column">
+            <p class="padding-bottom">Professional skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>communication</p>
+                        <span class="progress-bar"><span class="comm-adapt"></span></span>
+                    </li>
+                    <li>
+                        <p>teamplayer, adaptability</p>
+                        <span class="progress-bar"><span class="team-player"></span></span>
+                    </li>
+                    <li>
+                        <p>problem solving</p>
+                        <span class="progress-bar"><span class="problem-solving"></span></span>
+                    </li>
+                    <li>
+                        <p>open-minded</p>
+                        <span class="progress-bar"><span class="open-minded"></span></span>
+                    </li>
                 </ul>
-              </div>
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="https://www.epitomesolutions.in/" style="color:#12d640">Epitome Corporation Pvt. Ltd.</a><br> </h4>
-                <h5 style="text-align:left;">July 2019 - Dec 2019</h5>
-                <p style="text-align:left;color:#fff"><em>Software Developer</em></p>
-                <ul style="text-align:left;">
-                  <li>Tested, designed, and developed backend APIs of WebRTC enabled multi‑party video conferencing web application and delivered the project 15 days ahead of schedule by efficiently designing the flow of the project.</li>
-                </ul>
-              </div>
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="https://www.meditab.com/" target="_blank" style="color:#12d640">Meditab Software Pvt. Ltd.</a><br> </h4>
-                <h5 style="text-align:left;">May 2018 - June 2018</h5>
-                <p style="text-align:left;color:#fff"><em>Programmer Analyst</em></p>
-                <ul style="text-align:left;">
-                  <li>Optimized image processing algorithm of pill detection by creating customized MASKRCNN  algorithm, increasing accuracy by 15%; trained classification algorithm with the help of triplet loss to learn the image embedding of pill, reducing the hassle of collecting data of new pills. </li>
-                  <li>Devised a pipeline of the project to incorporate it into the product of the company. Implemented Restful APIs in Django that enabled our quality Analyst team to increase reporting speed by 46%.</li>
-                  <li>Built a web app to onboard data from the company’s product using Flask, Postgres, and AWS S3, enabling interactive charts in real-time.</li>
-                  <li>Mentored 2 interns to optimize the pill detection algorithm and to include the multiprocessing pipeline, increasing overall speed by 75%.</li>
-                </ul>
-              </div>
-              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 style="text-align:left;"><a href="https://www.sac.gov.in/Vyom/index.jsp" target="_blank" style="color:#12d640">Space Application Centre, ISRO</a><br> </h4>
-                <h5 style="text-align:left;">Jan 2018 - May 2018</h5>
-                <p style="text-align:left;color:#fff"><em>Research Intern</em></p>
-                <ul style="text-align:left;">
-                  <li>Implemented noise reduction algorithm on the satellite image and prepared architecture for detecting objects in high‑resolution satellite images, achieving 80% accuracy.</li>
-                  <li>Increased accessibility of satellite image data by redesigning database and application for showcasing graphical data.</li>
-                </ul>
-            </div>
-          </div>
-        </div>
-    </div>
-  </section>
+            </section>
+        </section>
+    </section>
+    </section>
 
-  <!-- End Experience Section -->
+    <!-- Projects -->
+    <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
+    <section>
+        <h3 class="main-title center padding">Projects I am currently working on</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="assets/project1.png" alt="project1">
+            <p class="padding bold center">Project name here</p>
+            <p>Project description here.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium totam, iusto recusandae, repudiandae
+                molestias adipisci perferendis, beatae quia voluptates aspernatur consequatur minima? Maiores neque
+                ullam explicabo, autem molestiae velit delectus?</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/project2.png" alt="project2">
+            <p class="padding bold center">Project name here</p>
+            <p>Project description here.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dignissimos facilis molestias, laborum
+                repellendus delectus accusantium, laboriosam aut cupiditate culpa eum animi deleniti nostrum quibusdam
+                consequatur eos in exercitationem dolores!</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
 
+    </section>
 
+    <!-- contact me -->
+    <!-- Five logo can be in one row, and if it still not enough, you can create another row, buy doubleing the "box-contact" section -->
+    <section id="contact-me" class="grid-system-2 w-900 padding">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/Contact-me-img.png" alt="contact-me-illustration">
+        </section>
+        <section class="margin-auto align-center">
+            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
+            <section class="box-contact margin-auto padding-top">
+                <span>
+                    <a href="https://www.linkedin.com/" target="_blank"><img class="logo" src="assets/linkedin.png"
+                            alt=""></a>
+                </span>
+                <span>
+                    <a href="https://github.com/" target="_blank"><img class="logo" src="assets/github.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="mailto:xy@gmail.com" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
+                </span>
+            </section>
+        </section>
+    </section>
 
-  <!-- Start Project Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+    <!-- special thanks -->
+    <!-- Here you can see the free resources I've used for the logos and illustrations. Do not forget to give credit to the creators of the free stuffs use may use additionally -->
+    <section>
+        <p class="small thanks justify w-900 padding-left">*Thanks for the illustration:
+            <a class="link colorful-letter" href="https://storyset.com/work" target="_blank">work illustrations</a> by
+            Storyset
 
-      <div class="section-title">
-        <h2>Projects</h2>
-      </div>
+        </p>
+        <p class="small thanks justify w-900 padding-left">*Thanks for the icons:
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Flatart" target="_blank">flatart,
+                </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/font-awesome" target="_blank">font
+                    awesome, </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/fluent-designsystem"
+                    target="_blank">microsoft, </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Chanut-is" target="_blank">chanut is
+                    indurstries, </a></span>
+            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Kalashnyk" target="_blank">kalash
+                </a></span>
+            on Iconfinder
+        </p>
+    </section>
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Web-App</li>
-            <li data-filter=".filter-project">Project</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Twitter Analysis</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/twitteranalysis.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/twitteranalysis.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Image recognition as Service</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/iras.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/iras.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Music Streaming Website</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Movie Recommender</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/recommender.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>To-Do App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/todo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> -->
-          <center><h4>Resume Section Classifier</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/resume.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Resume Section Classifier</h4>
-              <div class="portfolio-links">
-                <a href="projects/resume.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <br>
-          <center><h4>Tech Blog</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center><h4>Video Description Generator</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/vdg.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>ML-DL Web-App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/ml.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> -->
-          <center><h4>Image Generator</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/gan.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- End Project Section -->
-
-
-
-  <!-- Start Skills Section -->
-
-  <section id="skills" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone" height="50" width="150">
-                  <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="vectorlogo.zone" height="50" width="120">
-                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="upload.wikimedia.org" height="60" width="90">
-                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70" width="130">
-                  <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg" alt="vectorlogo.zone" height="50" width="190">
-
-                </p>
-            </div>
-            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="upload.wikimedia.org" width="90" height="70">
-              </p>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Tools</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" alt="vectorlogo.zone">
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- End Skills Section -->
-
-
-
-
-  <!-- Start Links section -->
-  <section id="links" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Resume & Links</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing" target="_blank">Resume</a></h4>
-          <p class="description" style="color:#fff;">The link contains downloadable resume</p>
-        </div>
-        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
-          <a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
-          <h4 class="title"><a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
-          <p class="description" style="color:#fff;"> The github repository contains leetcode problems solution in python.</p>
-        </div>
-        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
-          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
-        </div> -->
-      </div>
-    </div>
-  </section> <!--End Links Section -->
-
-
-  <!-- Start Contact Section -->
-
-  <section id="contacts" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>1275 E University Dr</p>
-            <p>Unit 212</p>
-            <p>Tempe, AZ 85281</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/rajaprerak" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://www.github.com/rajaprerak" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-              <a href="mailto:rajaprerak@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>rajaprerak@gmail.com</p>
-            <p>pkraja@asu.edu</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Contact</h3>
-            <p>+1 480-401-8112</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
-    </div>
-  </section>
-
-  <!-- End Contact Section -->
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Coder", "Developer", "AI Enthusiast"],
-      loop: true,
-      typeSpeed: 65,
-      backSpeed: 65
-    });
-  </script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <!-- footer -->
+    <!-- waits for you to take over! -->
+    <footer>@iluskaland 2024</footer>
 </body>
 
 </html>
